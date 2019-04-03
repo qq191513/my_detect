@@ -1,0 +1,13 @@
+step 1、用labelme做好数据集
+step 2、用tools/hand_annotation_json.py 或 用tools/hand_annotation_xml.py 把生成的数据集和json文件生成标注文件：如generate/hand_train.txt
+step 3、用kemans.py生成anchor： 把generate/hand_train.txt聚类成如generate/hand_anchor_tiny_yolo.txt
+step 4、改好路径，用train/train.py训练
+step 5、改好路径，eval/yolo_video.py测试
+
+
+
+
+
+
+
+
